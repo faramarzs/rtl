@@ -7,7 +7,7 @@ def datagen(lines: list[str]) -> dict:
     persian_numbers = [chr(x) for x in range(0x6f0, 0x6fa)]
     data = {
         'chars': char_data,
-        'numbers': {
+        'digits': {
             'arabic': arabic_numbers,
             'persian': persian_numbers
         }
@@ -23,6 +23,7 @@ def datagen(lines: list[str]) -> dict:
             'end': int(parts[4], 16),
             'middle': int(parts[6], 16) if parts[6] != '' else 0,
             'beginning': int(parts[8], 16) if parts[8] != '' else 0,
+            'glyphs': [parts[3], parts[5], parts[7], parts[9]]
         })
 
     return data
@@ -34,9 +35,9 @@ def generate(input_file: str, output_file: str, compressed_json: bool = False) -
         data = datagen(lines)
         with open(output_file, "w") as fo:
             s = json.dumps(data, indent=None if compressed_json else 4)
-            fo.write(s)
+            fo.write('char_data = ' + s)
             fo.write('\n')
 
 
 if __name__ == '__main__':
-    generate("../../docs/data.txt", "../../docs/rtl-data.json", compressed_json=False)
+    generate("../../docs/data.txt", "chars.py", compressed_json=False)
