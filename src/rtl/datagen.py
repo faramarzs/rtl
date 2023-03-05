@@ -15,7 +15,7 @@ def datagen(lines: list[str]) -> dict:
 
     for line in lines:
         parts = [s.strip().replace('"', '') for s in line.split(",")]
-        assert len(parts) == 11, f"There is no enough items in line (line='{line}', parts={len(parts)}"
+        assert len(parts) == 13, f"There is no enough items in line (line='{line}', parts={len(parts)}"
         char_data.append({
             'name': parts[10],
             'code': int(parts[0], 16),
@@ -23,6 +23,8 @@ def datagen(lines: list[str]) -> dict:
             'end': int(parts[4], 16),
             'middle': int(parts[6], 16) if parts[6] != '' else 0,
             'beginning': int(parts[8], 16) if parts[8] != '' else 0,
+            'next_attach': int(parts[11]),
+            'prev_attach': int(parts[12]),
             'glyphs': [parts[3], parts[5], parts[7], parts[9]]
         })
 

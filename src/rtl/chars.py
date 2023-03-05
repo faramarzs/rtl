@@ -7,6 +7,8 @@ char_data = {
             "end": 65166,
             "middle": 0,
             "beginning": 0,
+            "next_attach": 0,
+            "prev_attach": 1,
             "glyphs": [
                 "\ufe8d",
                 "\ufe8e",
@@ -21,6 +23,8 @@ char_data = {
             "end": 65168,
             "middle": 65170,
             "beginning": 65169,
+            "next_attach": 1,
+            "prev_attach": 1,
             "glyphs": [
                 "\ufe8f",
                 "\ufe90",
@@ -35,6 +39,8 @@ char_data = {
             "end": 65174,
             "middle": 65176,
             "beginning": 65175,
+            "next_attach": 1,
+            "prev_attach": 1,
             "glyphs": [
                 "\ufe95",
                 "\ufe96",
@@ -49,6 +55,8 @@ char_data = {
             "end": 65178,
             "middle": 65180,
             "beginning": 65179,
+            "next_attach": 1,
+            "prev_attach": 1,
             "glyphs": [
                 "\ufe99",
                 "\ufe9a",
@@ -63,6 +71,8 @@ char_data = {
             "end": 65182,
             "middle": 65184,
             "beginning": 65183,
+            "next_attach": 1,
+            "prev_attach": 1,
             "glyphs": [
                 "\ufe9d",
                 "\ufe9e",
@@ -77,6 +87,8 @@ char_data = {
             "end": 65186,
             "middle": 65188,
             "beginning": 65187,
+            "next_attach": 1,
+            "prev_attach": 1,
             "glyphs": [
                 "\ufea1",
                 "\ufea2",
@@ -91,6 +103,8 @@ char_data = {
             "end": 65190,
             "middle": 65192,
             "beginning": 65191,
+            "next_attach": 1,
+            "prev_attach": 1,
             "glyphs": [
                 "\ufea5",
                 "\ufea6",
@@ -105,6 +119,8 @@ char_data = {
             "end": 65194,
             "middle": 0,
             "beginning": 0,
+            "next_attach": 0,
+            "prev_attach": 1,
             "glyphs": [
                 "\ufea9",
                 "\ufeaa",
@@ -119,6 +135,8 @@ char_data = {
             "end": 65196,
             "middle": 0,
             "beginning": 0,
+            "next_attach": 0,
+            "prev_attach": 1,
             "glyphs": [
                 "\ufeab",
                 "\ufeac",
@@ -133,6 +151,8 @@ char_data = {
             "end": 65198,
             "middle": 0,
             "beginning": 0,
+            "next_attach": 0,
+            "prev_attach": 1,
             "glyphs": [
                 "\ufead",
                 "\ufeae",
@@ -147,6 +167,8 @@ char_data = {
             "end": 65200,
             "middle": 0,
             "beginning": 0,
+            "next_attach": 0,
+            "prev_attach": 1,
             "glyphs": [
                 "\ufeaf",
                 "\ufeb0",
@@ -161,6 +183,8 @@ char_data = {
             "end": 65202,
             "middle": 65204,
             "beginning": 65203,
+            "next_attach": 1,
+            "prev_attach": 1,
             "glyphs": [
                 "\ufeb1",
                 "\ufeb2",
@@ -175,6 +199,8 @@ char_data = {
             "end": 65206,
             "middle": 65208,
             "beginning": 65207,
+            "next_attach": 1,
+            "prev_attach": 1,
             "glyphs": [
                 "\ufeb5",
                 "\ufeb6",
@@ -189,6 +215,8 @@ char_data = {
             "end": 65210,
             "middle": 65212,
             "beginning": 65211,
+            "next_attach": 1,
+            "prev_attach": 1,
             "glyphs": [
                 "\ufeb9",
                 "\ufeba",
@@ -203,6 +231,8 @@ char_data = {
             "end": 65214,
             "middle": 65216,
             "beginning": 65215,
+            "next_attach": 1,
+            "prev_attach": 1,
             "glyphs": [
                 "\ufebd",
                 "\ufebe",
@@ -217,6 +247,8 @@ char_data = {
             "end": 65218,
             "middle": 65220,
             "beginning": 65219,
+            "next_attach": 1,
+            "prev_attach": 1,
             "glyphs": [
                 "\ufec1",
                 "\ufec2",
@@ -231,6 +263,8 @@ char_data = {
             "end": 65222,
             "middle": 65224,
             "beginning": 65223,
+            "next_attach": 1,
+            "prev_attach": 1,
             "glyphs": [
                 "\ufec5",
                 "\ufec6",
@@ -245,6 +279,8 @@ char_data = {
             "end": 65226,
             "middle": 65228,
             "beginning": 65227,
+            "next_attach": 1,
+            "prev_attach": 1,
             "glyphs": [
                 "\ufec9",
                 "\ufeca",
@@ -259,6 +295,8 @@ char_data = {
             "end": 65230,
             "middle": 65232,
             "beginning": 65231,
+            "next_attach": 1,
+            "prev_attach": 1,
             "glyphs": [
                 "\ufecd",
                 "\ufece",
@@ -273,6 +311,8 @@ char_data = {
             "end": 65234,
             "middle": 65236,
             "beginning": 65235,
+            "next_attach": 1,
+            "prev_attach": 1,
             "glyphs": [
                 "\ufed1",
                 "\ufed2",
@@ -287,6 +327,8 @@ char_data = {
             "end": 65238,
             "middle": 65240,
             "beginning": 65239,
+            "next_attach": 1,
+            "prev_attach": 1,
             "glyphs": [
                 "\ufed5",
                 "\ufed6",
@@ -301,6 +343,8 @@ char_data = {
             "end": 65242,
             "middle": 65244,
             "beginning": 65243,
+            "next_attach": 1,
+            "prev_attach": 1,
             "glyphs": [
                 "\ufed9",
                 "\ufeda",
@@ -315,6 +359,8 @@ char_data = {
             "end": 65246,
             "middle": 65248,
             "beginning": 65247,
+            "next_attach": 1,
+            "prev_attach": 1,
             "glyphs": [
                 "\ufedd",
                 "\ufede",
@@ -329,6 +375,8 @@ char_data = {
             "end": 65250,
             "middle": 65252,
             "beginning": 65251,
+            "next_attach": 1,
+            "prev_attach": 1,
             "glyphs": [
                 "\ufee1",
                 "\ufee2",
@@ -343,6 +391,8 @@ char_data = {
             "end": 65254,
             "middle": 65256,
             "beginning": 65255,
+            "next_attach": 1,
+            "prev_attach": 1,
             "glyphs": [
                 "\ufee5",
                 "\ufee6",
@@ -357,6 +407,8 @@ char_data = {
             "end": 65258,
             "middle": 65260,
             "beginning": 65259,
+            "next_attach": 1,
+            "prev_attach": 1,
             "glyphs": [
                 "\ufee9",
                 "\ufeea",
@@ -371,6 +423,8 @@ char_data = {
             "end": 65262,
             "middle": 0,
             "beginning": 0,
+            "next_attach": 0,
+            "prev_attach": 1,
             "glyphs": [
                 "\ufeed",
                 "\ufeee",
@@ -385,6 +439,8 @@ char_data = {
             "end": 65266,
             "middle": 65268,
             "beginning": 65267,
+            "next_attach": 1,
+            "prev_attach": 1,
             "glyphs": [
                 "\ufef1",
                 "\ufef2",
@@ -399,6 +455,8 @@ char_data = {
             "end": 65154,
             "middle": 0,
             "beginning": 0,
+            "next_attach": 0,
+            "prev_attach": 1,
             "glyphs": [
                 "\ufe81",
                 "\ufe82",
@@ -413,6 +471,8 @@ char_data = {
             "end": 65172,
             "middle": 0,
             "beginning": 0,
+            "next_attach": 0,
+            "prev_attach": 1,
             "glyphs": [
                 "\ufe93",
                 "\ufe94",
@@ -427,6 +487,8 @@ char_data = {
             "end": 65264,
             "middle": 0,
             "beginning": 0,
+            "next_attach": 1,
+            "prev_attach": 1,
             "glyphs": [
                 "\ufeef",
                 "\ufef0",
@@ -441,6 +503,8 @@ char_data = {
             "end": 64343,
             "middle": 64505,
             "beginning": 64344,
+            "next_attach": 1,
+            "prev_attach": 1,
             "glyphs": [
                 "\ufb56",
                 "\ufb57",
@@ -455,6 +519,8 @@ char_data = {
             "end": 64379,
             "middle": 64381,
             "beginning": 64380,
+            "next_attach": 1,
+            "prev_attach": 1,
             "glyphs": [
                 "\ufb7a",
                 "\ufb7b",
@@ -469,6 +535,8 @@ char_data = {
             "end": 64395,
             "middle": 0,
             "beginning": 0,
+            "next_attach": 0,
+            "prev_attach": 1,
             "glyphs": [
                 "\ufb8a",
                 "\ufb8b",
@@ -483,6 +551,8 @@ char_data = {
             "end": 64399,
             "middle": 64401,
             "beginning": 64400,
+            "next_attach": 1,
+            "prev_attach": 1,
             "glyphs": [
                 "\ufb8e",
                 "\ufb8f",
@@ -497,6 +567,8 @@ char_data = {
             "end": 64403,
             "middle": 64405,
             "beginning": 64404,
+            "next_attach": 1,
+            "prev_attach": 1,
             "glyphs": [
                 "\ufb92",
                 "\ufb93",
@@ -511,6 +583,8 @@ char_data = {
             "end": 64427,
             "middle": 64429,
             "beginning": 64428,
+            "next_attach": 1,
+            "prev_attach": 1,
             "glyphs": [
                 "\ufbaa",
                 "\ufbab",
@@ -525,6 +599,8 @@ char_data = {
             "end": 65154,
             "middle": 0,
             "beginning": 0,
+            "next_attach": 0,
+            "prev_attach": 1,
             "glyphs": [
                 "\ufe83",
                 "\ufe84",
@@ -539,6 +615,8 @@ char_data = {
             "end": 65158,
             "middle": 0,
             "beginning": 0,
+            "next_attach": 0,
+            "prev_attach": 1,
             "glyphs": [
                 "\ufe85",
                 "\ufe86",
@@ -553,6 +631,8 @@ char_data = {
             "end": 65160,
             "middle": 0,
             "beginning": 0,
+            "next_attach": 0,
+            "prev_attach": 1,
             "glyphs": [
                 "\ufe87",
                 "\ufe88",
@@ -567,6 +647,8 @@ char_data = {
             "end": 65162,
             "middle": 65164,
             "beginning": 65163,
+            "next_attach": 1,
+            "prev_attach": 1,
             "glyphs": [
                 "\ufe89",
                 "\ufe8a",
@@ -581,6 +663,8 @@ char_data = {
             "end": 65276,
             "middle": 0,
             "beginning": 0,
+            "next_attach": 0,
+            "prev_attach": 1,
             "glyphs": [
                 "\ufefb",
                 "\ufefc",
