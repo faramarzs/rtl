@@ -11,7 +11,32 @@ def datagen(lines: list[str]) -> dict:
             'arabic': arabic_numbers,
             'persian': persian_numbers
         },
-        'nonalphas': list('؛«»؟٬٫×،')
+        'neutrals': {
+            ',': '،',
+            ';': '؛',
+            '?': '؟',
+            '*': '×',
+            '%': '٪',
+            '(': ')',
+            ')': '(',
+            '{': '}',
+            '}': '{',
+            '-': '-',
+            '+': '-',
+            ' ': ' ',
+            '0': '\u06f0',
+            '1': '\u06f1',
+            '2': '\u06f2',
+            '3': '\u06f3',
+            '4': '\u06f4',
+            '5': '\u06f5',
+            '6': '\u06f6',
+            '7': '\u06f7',
+            '8': '\u06f8',
+            '9': '\u06f9',
+        },
+        'rtl-non-alphas': list('«»٫﷼٪٬ـ؟'),
+        'ltr-non-alphas': list('@#$^&/><`\'"~')
     }
 
     # for na in data['nonalphas']:
