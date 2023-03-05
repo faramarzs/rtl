@@ -1,0 +1,326 @@
+{
+    "chars": [
+        {
+            "name": "\u02bealif",
+            "code": 1575,
+            "isolated": 65165,
+            "end": 65166,
+            "middle": 0,
+            "beginning": 0
+        },
+        {
+            "name": "b\u0101\u02be",
+            "code": 1576,
+            "isolated": 65167,
+            "end": 65168,
+            "middle": 65170,
+            "beginning": 65169
+        },
+        {
+            "name": "t\u0101\u02be",
+            "code": 1578,
+            "isolated": 65173,
+            "end": 65174,
+            "middle": 65176,
+            "beginning": 65175
+        },
+        {
+            "name": "\u1e6f\u0101\u02be",
+            "code": 1579,
+            "isolated": 65177,
+            "end": 65178,
+            "middle": 65180,
+            "beginning": 65179
+        },
+        {
+            "name": "\u01e7\u012bm",
+            "code": 1580,
+            "isolated": 65181,
+            "end": 65182,
+            "middle": 65184,
+            "beginning": 65183
+        },
+        {
+            "name": "\u1e25\u0101\u02be",
+            "code": 1581,
+            "isolated": 65185,
+            "end": 65186,
+            "middle": 65188,
+            "beginning": 65187
+        },
+        {
+            "name": "\u1e2b\u0101\u02be",
+            "code": 1582,
+            "isolated": 65189,
+            "end": 65190,
+            "middle": 65192,
+            "beginning": 65191
+        },
+        {
+            "name": "d\u0101l",
+            "code": 1583,
+            "isolated": 65193,
+            "end": 65194,
+            "middle": 0,
+            "beginning": 0
+        },
+        {
+            "name": "\u1e0f\u0101l",
+            "code": 1584,
+            "isolated": 65195,
+            "end": 65196,
+            "middle": 0,
+            "beginning": 0
+        },
+        {
+            "name": "r\u0101\u02be",
+            "code": 1585,
+            "isolated": 65197,
+            "end": 65198,
+            "middle": 0,
+            "beginning": 0
+        },
+        {
+            "name": "zayn/z\u0101y",
+            "code": 1586,
+            "isolated": 65199,
+            "end": 65200,
+            "middle": 0,
+            "beginning": 0
+        },
+        {
+            "name": "s\u012bn",
+            "code": 1587,
+            "isolated": 65201,
+            "end": 65202,
+            "middle": 65204,
+            "beginning": 65203
+        },
+        {
+            "name": "\u0161\u012bn",
+            "code": 1588,
+            "isolated": 65205,
+            "end": 65206,
+            "middle": 65208,
+            "beginning": 65207
+        },
+        {
+            "name": "\u1e63\u0101d",
+            "code": 1589,
+            "isolated": 65209,
+            "end": 65210,
+            "middle": 65212,
+            "beginning": 65211
+        },
+        {
+            "name": "\u1e0d\u0101d",
+            "code": 1590,
+            "isolated": 65213,
+            "end": 65214,
+            "middle": 65216,
+            "beginning": 65215
+        },
+        {
+            "name": "\u1e6d\u0101\u02be",
+            "code": 1591,
+            "isolated": 65217,
+            "end": 65218,
+            "middle": 65220,
+            "beginning": 65219
+        },
+        {
+            "name": "\u1e93\u0101\u02be",
+            "code": 1592,
+            "isolated": 65221,
+            "end": 65222,
+            "middle": 65224,
+            "beginning": 65223
+        },
+        {
+            "name": "\u02bfayn",
+            "code": 1593,
+            "isolated": 65225,
+            "end": 65226,
+            "middle": 65228,
+            "beginning": 65227
+        },
+        {
+            "name": "\u0121ayn",
+            "code": 1594,
+            "isolated": 65229,
+            "end": 65230,
+            "middle": 65232,
+            "beginning": 65231
+        },
+        {
+            "name": "f\u0101\u02be",
+            "code": 1601,
+            "isolated": 65233,
+            "end": 65234,
+            "middle": 65236,
+            "beginning": 65235
+        },
+        {
+            "name": "q\u0101f",
+            "code": 1602,
+            "isolated": 65237,
+            "end": 65238,
+            "middle": 65240,
+            "beginning": 65239
+        },
+        {
+            "name": "k\u0101f",
+            "code": 1603,
+            "isolated": 65241,
+            "end": 65242,
+            "middle": 65244,
+            "beginning": 65243
+        },
+        {
+            "name": "l\u0101m",
+            "code": 1604,
+            "isolated": 65245,
+            "end": 65246,
+            "middle": 65248,
+            "beginning": 65247
+        },
+        {
+            "name": "m\u012bm",
+            "code": 1605,
+            "isolated": 65249,
+            "end": 65250,
+            "middle": 65252,
+            "beginning": 65251
+        },
+        {
+            "name": "n\u016bn",
+            "code": 1606,
+            "isolated": 65253,
+            "end": 65254,
+            "middle": 65256,
+            "beginning": 65255
+        },
+        {
+            "name": "h\u0101\u02be",
+            "code": 1607,
+            "isolated": 65257,
+            "end": 65258,
+            "middle": 65260,
+            "beginning": 65259
+        },
+        {
+            "name": "w\u0101w",
+            "code": 1608,
+            "isolated": 65261,
+            "end": 65262,
+            "middle": 0,
+            "beginning": 0
+        },
+        {
+            "name": "y\u0101\u02be",
+            "code": 1610,
+            "isolated": 65265,
+            "end": 65266,
+            "middle": 65268,
+            "beginning": 65267
+        },
+        {
+            "name": "\u02bealif maddah",
+            "code": 1570,
+            "isolated": 65153,
+            "end": 65154,
+            "middle": 0,
+            "beginning": 0
+        },
+        {
+            "name": "T\u0101\u02be marb\u016b\u1e6dah",
+            "code": 1577,
+            "isolated": 65171,
+            "end": 65172,
+            "middle": 0,
+            "beginning": 0
+        },
+        {
+            "name": "\u02bealif maq\u1e63\u016brah",
+            "code": 1609,
+            "isolated": 65263,
+            "end": 65264,
+            "middle": 0,
+            "beginning": 0
+        },
+        {
+            "name": "p-peh",
+            "code": 1662,
+            "isolated": 64342,
+            "end": 64343,
+            "middle": 64505,
+            "beginning": 64344
+        },
+        {
+            "name": "p-cheh",
+            "code": 1670,
+            "isolated": 64378,
+            "end": 64379,
+            "middle": 64381,
+            "beginning": 64380
+        },
+        {
+            "name": "p-zheh",
+            "code": 1688,
+            "isolated": 64394,
+            "end": 64395,
+            "middle": 0,
+            "beginning": 0
+        },
+        {
+            "name": "p-k\u0101f",
+            "code": 1705,
+            "isolated": 64398,
+            "end": 64399,
+            "middle": 64401,
+            "beginning": 64400
+        },
+        {
+            "name": "p-gaf",
+            "code": 1711,
+            "isolated": 64402,
+            "end": 64403,
+            "middle": 64405,
+            "beginning": 64404
+        },
+        {
+            "name": "h\u0101\u02be",
+            "code": 1726,
+            "isolated": 64426,
+            "end": 64427,
+            "middle": 64429,
+            "beginning": 64428
+        }
+    ],
+    "numbers": {
+        "arabic": [
+            "\u0660",
+            "\u0661",
+            "\u0662",
+            "\u0663",
+            "\u0664",
+            "\u0665",
+            "\u0666",
+            "\u0667",
+            "\u0668",
+            "\u0669"
+        ],
+        "persian": [
+            "\u06f0",
+            "\u06f1",
+            "\u06f2",
+            "\u06f3",
+            "\u06f4",
+            "\u06f5",
+            "\u06f6",
+            "\u06f7",
+            "\u06f8",
+            "\u06f9"
+        ]
+    }
+}
