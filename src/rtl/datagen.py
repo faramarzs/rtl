@@ -10,8 +10,12 @@ def datagen(lines: list[str]) -> dict:
         'digits': {
             'arabic': arabic_numbers,
             'persian': persian_numbers
-        }
+        },
+        'nonalphas': list('؛«»؟٬٫×،')
     }
+
+    # for na in data['nonalphas']:
+    #    print(f"0x{ord(na):04x}: {na}")
 
     for line in lines:
         parts = [s.strip().replace('"', '') for s in line.split(",")]
