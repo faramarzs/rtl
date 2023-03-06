@@ -5,10 +5,11 @@ from rtl.model import RTLAlgorithm, Direction, Line, Block, Language
 
 
 class Analyzer:
-
     _rtl_chars = set()
 
-    def __init__(self):
+    def __init__(self, debug: bool = False):
+        self._debug = debug
+
         self._chars = {chr(d['code']): d for d in char_data['chars']}
 
         self._neutrals = char_data['neutrals']
@@ -17,6 +18,20 @@ class Analyzer:
         self._ltr_non_alphas = char_data['ltr-non-alphas']
 
         self._init_rtl_set()
+
+    def analyze(self, text: str, direction: Direction, algo: RTLAlgorithm) -> str:
+        line = self._parse(text)
+        self._resolve_neutrals(line, direction, algo)
+        _coalesce_line(line)
+
+        if self._debug:
+            for idx, block in enumerate(line.blocks):
+                print(f"block #{idx}:")
+                print(f"\t{block.lang}")
+                print(f"\t|{block.text}|")
+            print(".")
+
+        return self._render(line, direction)
 
     def _init_rtl_set(self):
         for c in self._chars:
@@ -33,6 +48,7 @@ class Analyzer:
             self._rtl_chars.add(c)
         for c in self._rtl_non_alphas:
             self._rtl_chars.add(c)
+        self._rtl_chars.add('\u200c')
 
     def _is_rtl(self, ch: str) -> bool:
         return ch in self._rtl_chars
@@ -42,12 +58,6 @@ class Analyzer:
 
     def _is_ltr(self, ch: str) -> bool:
         return 'A' <= ch <= 'Z' or 'a' <= ch <= 'z' or ch in self._ltr_non_alphas
-
-    def analyze(self, text: str, direction: Direction, algo: RTLAlgorithm) -> str:
-        line = self._parse(text)
-        self._resolve_neutrals(line, direction, algo)
-        _coalesce_line(line)
-        return self._render(line, direction)
 
     def _render(self, line: Line, direction: Direction) -> str:
         blocks = line.blocks if direction == Direction.LTR else line.blocks[::-1]
