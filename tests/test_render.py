@@ -18,11 +18,13 @@ LTR_MARKS2 = "&~"
 
 
 def test_render():
-    analyzer = Analyzer(debug=True)
+    analyzer = Analyzer(debug=1)
     strs = [
-        RTL_TEXT + RTL_NUMBER + RTL_WITH_SPACE_TEXT + RTL_MARKS1,
-        LTR_TEXT + NEUTRAL_TEXT + LTR_WITH_SPACE_TEXT + LTR_MARKS1,
-        LTR_TEXT + NEUTRAL_TEXT + RTL_WITH_SPACE_TEXT + NEUTRAL_TEXT + LTR_WITH_SPACE_TEXT + LTR_MARKS2
+        #RTL_TEXT + RTL_NUMBER + RTL_WITH_SPACE_TEXT + RTL_MARKS1,
+        #LTR_TEXT + NEUTRAL_TEXT + LTR_WITH_SPACE_TEXT + LTR_MARKS1,
+        LTR_TEXT + NEUTRAL_TEXT + RTL_WITH_SPACE_TEXT + NEUTRAL_TEXT + LTR_WITH_SPACE_TEXT + LTR_MARKS2,
+        #RTL_TEXT,
+        #RTL_WITH_SPACE_TEXT,
     ]
     with open("/tmp/x.txt", "w") as f:
         for s in strs:

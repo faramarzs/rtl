@@ -22,7 +22,9 @@ def datagen(lines: list[str]) -> dict:
             '{': '}',
             '}': '{',
             '-': '-',
-            '+': '-',
+            '+': '+',
+            '=': '=',
+            '_': '_',
             ' ': ' ',
             '0': '\u06f0',
             '1': '\u06f1',
@@ -65,6 +67,13 @@ def generate(input_file: str, output_file: str, compressed_json: bool = False) -
         lines = [line.strip() for line in fi.readlines() if not line.startswith("#") and not line.startswith("\n")]
         data = datagen(lines)
         with open(output_file, "w") as fo:
+            fo.write('CASE_ISOLATED = "isolated"\n')
+            fo.write('CASE_END = "end"\n')
+            fo.write('CASE_MIDDLE = "middle"\n')
+            fo.write('CASE_BEGINNING = "beginning"\n')
+            fo.write('ATTR_NEXT_ATTACH = "next_attach"\n')
+            fo.write('ATTR_PREV_ATTACH = "prev_attach"\n')
+            fo.write('\n')
             s = json.dumps(data, indent=None if compressed_json else 4)
             fo.write('char_data = ' + s)
             fo.write('\n')

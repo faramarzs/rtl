@@ -1,5 +1,28 @@
+CASE_ISOLATED = "isolated"
+CASE_END = "end"
+CASE_MIDDLE = "middle"
+CASE_BEGINNING = "beginning"
+ATTR_NEXT_ATTACH = "next_attach"
+ATTR_PREV_ATTACH = "prev_attach"
+
 char_data = {
     "chars": [
+        {
+            "name": "nzj",
+            "code": 8204,
+            "isolated": 8204,
+            "end": 8204,
+            "middle": 8204,
+            "beginning": 8204,
+            "next_attach": 0,
+            "prev_attach": 0,
+            "glyphs": [
+                "",
+                "",
+                "",
+                ""
+            ]
+        },
         {
             "name": "'alif",
             "code": 1575,
@@ -726,7 +749,9 @@ char_data = {
         "{": "}",
         "}": "{",
         "-": "-",
-        "+": "-",
+        "+": "+",
+        "=": "=",
+        "_": "_",
         " ": " ",
         "0": "\u06f0",
         "1": "\u06f1",

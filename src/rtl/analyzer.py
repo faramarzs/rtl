@@ -1,13 +1,14 @@
 from typing import Callable
 
 from rtl.chars import char_data
+from rtl.ctx import ctx_analysis
 from rtl.model import RTLAlgorithm, Direction, Line, Block, Language
 
 
 class Analyzer:
     _rtl_chars = set()
 
-    def __init__(self, debug: bool = False):
+    def __init__(self, debug: int = 0):
         self._debug = debug
 
         self._chars = {chr(d['code']): d for d in char_data['chars']}
@@ -21,6 +22,7 @@ class Analyzer:
 
     def analyze(self, text: str, direction: Direction, algo: RTLAlgorithm) -> str:
         line = self._parse(text)
+        self._contextual_analyze(line)
         self._resolve_neutrals(line, direction, algo)
         _coalesce_line(line)
 
@@ -29,6 +31,9 @@ class Analyzer:
                 print(f"block #{idx}:")
                 print(f"\t{block.lang}")
                 print(f"\t|{block.text}|")
+                if self._debug > 1:
+                    for c in block.text:
+                        print(f"\t\t#{c}#")
             print(".")
 
         return self._render(line, direction)
@@ -62,6 +67,13 @@ class Analyzer:
     def _render(self, line: Line, direction: Direction) -> str:
         blocks = line.blocks if direction == Direction.LTR else line.blocks[::-1]
         return ''.join([block.lang_text() for block in blocks])
+
+    def _contextual_analyze(self, line):
+        for block in line.blocks:
+            if block.lang != Language.RTL:
+                continue
+            text = ctx_analysis(block.text, debug=self._debug)
+            block.replace_text(text)
 
     def _parse(self, text: str) -> Line:
         line = Line()
